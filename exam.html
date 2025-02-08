@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .box {
+            flex: 1;
+            background-color: lightgray;
+            margin-right: 10px;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .box:last-child {
+            margin-right: 0; /* Remove margin for the last box */
+        }
+
+        .full-width {
+            flex: 0 0 100%; /* Make this box full width */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Mock 1</div>
+        <div class="row">
+            <div class="box">Box 1</div>
+            <div class="box">Box 2</div>
+        </div>
+        <div class="row">
+            <div class="box">Box 3</div>
+        </div>
+        <div class="row">
+            <div class="box">Box 4</div>
+            <div class="box">Box 5</div>
+        </div>
+        <div class="row">
+            <div class="box full-width">Box 6</div>
+        </div>
+    </div>
+</body>
+</html>

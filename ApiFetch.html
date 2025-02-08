@@ -1,0 +1,30 @@
+ <!-- <!DOCTYPE html> -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>API PRACTICE</h1>
+<script>
+const URL="https://cat-fact.herokuapp.com";
+let data;
+let promise=fetch(URL);
+console.log("getting data...");
+fetch(URL).then((response)=>
+{
+    console.log(response);
+    //  data=response.json();
+    // console.log(data[0].text);
+
+})
+.catch((error)=>
+{
+    console.log("fail",error )
+});
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3</title>
+</head>
+<body>
+    <script>
+        let student={
+            firstName:"GHULAM",
+            lastName:"MUSTAFA",
+            age:22
+        };
+        check(student);
+        function check(student)
+        {
+                for(key in student)
+                {
+                    if(typeof key=="string")
+                    {
+                        console.log(student[key]);
+                    }
+                    
+                }
+
+        }
+    </script>
+</body>
+</html>

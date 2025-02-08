@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event</title>
+<style>
+    div{
+        background-color: blueviolet;
+        border: solid 5px chartreuse;
+        height: 100px;
+        width:100px;
+    }
+</style>
+</head>
+<body>
+    <button id="btn1">Click me!</button>
+    <!-- <button onclick="
+        console.log('button was clicked.');
+        alert('attention!');
+        ">Click me!</button> -->
+
+    <!-- <button ondblclick="
+        console.log('button was double clicked.');
+        alert('attention!');
+        ">Double Click me!</button> -->
+
+        <div class="over">
+        <!-- <div onmouseover="console.log('You are inside a div')"> -->
+            This is div</div>
+            <script>
+                let btn1=document.querySelector("#btn1");
+                
+                btn1.addEventListener("click",()=>{
+                    console.log("The button0 is clicked!");
+                });
+                
+                let btn=()=>
+            {
+                console.log("The button1 is double clicked!");
+            };
+            btn1.addEventListener("dblclick",btn);
+                btn1.addEventListener("dblclick",()=>
+            {
+                console.log("The button2 is double clicked!");
+            });
+            btn1.removeEventListener("dblclick",btn);
+                
+                // btn1.onclick=(e)=>   {
+                //    console.log(e);
+                //    console.log(e.type);
+                //    console.log(e.clientX,e.clientY);
+                
+                    // console.log("button is clicked!");
+                    // let a=1;
+                    // a++;
+                    // console.log(a);
+
+                //};
+                // let btn2=document.querySelector(".over");
+                // btn2.onmouseover=(e)=>
+                // {
+                //     console.log(e);
+                //     // console.log("You are inside a div");
+                // };
+            </script>
+</body>
+</html>

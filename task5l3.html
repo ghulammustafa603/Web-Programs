@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         const checkspeed=(num) => {
+            let penalty=0;
+            penalty=(num-70)/5;
+                
+            if(num<70)
+            {
+            console.log("Good safe driving");
+            }
+            else if(num>70)
+            {         
+                if(penalty>10)
+            {
+                console.log("licence suspended!");
+            }
+            else
+            {
+                console.log("Speed limit crossed by penalty point")
+                
+            }
+            }
+            
+        
+        }
+        checkspeed(130);
+      
+    </script>
+</body>
+</html>

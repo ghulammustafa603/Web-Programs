@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Questions</title>
+</head>
+<body>
+    <button id="btn1">Toggle</button>
+    <script>
+        let btn1=document.querySelector("#btn1");
+       let bol=true; 
+       btn1.addEventListener("click",()=>
+    {
+        if(bol===true)
+        {
+        document.body.style.cssText="background-color:black;";
+        bol=false;
+        }
+        
+        else
+        {
+        document.body.style.cssText="background-color:white;";
+        bol=true;
+        }   
+    });
+    
+    // if(bol==false)
+    // {
+    //     btn1.addEventListener("click",()=>
+    // {
+    //     document.body.style.cssText="background-color:white";
+    // });
+    // }
+    // </script>
+</body>
+</html>

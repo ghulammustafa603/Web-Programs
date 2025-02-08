@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html class='pc chrome win psc_dir-ltr psc_form-xlarge' dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2018, Oracle and/or its affiliates. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>*Student ID</th><th>Name</th><th>*Academic Career</th><th>Present</th><th>Tardy</th><th>Left Early</th><th>Reason</th><th>From Time</th><th>*To Time</th><th>Contact Minutes</th><th>Absent Count</th><th>Present Count</th><th>Warning</th></tr>
+<tr>
+<td  >023-22-0080</td>
+<td  >,,Aamir Hussain Mangrio .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >6.00</td>
+<td  >8</td>
+<td  >Warning 2</td>
+<tr>
+<td  >023-22-0355</td>
+<td  >,,AbduL Rafy Abdul Khalique</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >6.00</td>
+<td  >8</td>
+<td  >Warning 2</td>
+<tr>
+<td  >021-21-0019</td>
+<td  >,,Abdul Rauf .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >7.00</td>
+<td  >1</td>
+<td  >Warning 2</td>
+<tr>
+<td  >023-22-0400</td>
+<td  >,,Abdul Rehman .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  ></td>
+<td  >9</td>
+<td  ></td>
+<tr>
+<td  >021-21-0015</td>
+<td  >,,Abdul Sami .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >1.00</td>
+<td  >11</td>
+<td  ></td>
+<tr>
+<td  >023-22-0107</td>
+<td  >,,Abou Bakar .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >5.00</td>
+<td  >9</td>
+<td  >Warning 1</td>
+<tr>
+<td  >023-22-0163</td>
+<td  >,,Aftab Ahmed</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >8.00</td>
+<td  >6</td>
+<td  >Warning 2</td>
+<tr>
+<td  >023-22-0169</td>
+<td  >,,Ahteshamullah Shah</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >5.00</td>
+<td  >9</td>
+<td  >Warning 1</td>
+<tr>
+<td  >023-22-0037</td>
+<td  >,,Aleena Imran .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >5.00</td>
+<td  >9</td>
+<td  >Warning 1</td>
+<tr>
+<td  >023-22-0293</td>
+<td  >,,Aleeza Aslam .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >6.00</td>
+<td  >8</td>
+<td  >Warning 2</td>
+<tr>
+<td  >053-22-0021</td>
+<td  >,,Ali Hasnain .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >6.00</td>
+<td  >8</td>
+<td  >Warning 2</td>
+<tr>
+<td  >023-22-0129</td>
+<td  >,,Amir Gul</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >7.00</td>
+<td  >7</td>
+<td  >Warning 2</td>
+<tr>
+<td  >023-22-0357</td>
+<td  >,,Aqib Ali Muhammad Aslam</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >3.00</td>
+<td  >11</td>
+<td  ></td>
+<tr>
+<td  >023-22-0404</td>
+<td  >,,Arslan Ali .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >2.00</td>
+<td  >7</td>
+<td  ></td>
+<tr>
+<td  >053-22-0025</td>
+<td  >,,Aryan Izhar .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >5.00</td>
+<td  >9</td>
+<td  >Warning 1</td>
+<tr>
+<td  >023-22-0160</td>
+<td  >,,Azra Jawaid .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >2.00</td>
+<td  >12</td>
+<td  ></td>
+<tr>
+<td  >023-22-0406</td>
+<td  >,,Bismillah abbasi .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >1.00</td>
+<td  >8</td>
+<td  ></td>
+<tr>
+<td  >023-22-0012</td>
+<td  >,,Faizan Muhammad .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >5.00</td>
+<td  >9</td>
+<td  >Warning 1</td>
+<tr>
+<td  >023-22-0099</td>
+<td  >,,Ghulam Mustafa .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >3.00</td>
+<td  >11</td>
+<td  ></td>
+<tr>
+<td  >023-22-0059</td>
+<td  >,,Hadia Karim .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >2.00</td>
+<td  >12</td>
+<td  ></td>
+<tr>
+<td  >053-22-0010</td>
+<td  >,,Haseebuddin Qureshi .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >2.00</td>
+<td  >12</td>
+<td  ></td>
+<tr>
+<td  >023-22-0164</td>
+<td  >,,Hassan Raza</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >4.00</td>
+<td  >10</td>
+<td  >Warning 1</td>
+<tr>
+<td  >053-22-0028</td>
+<td  >,,Indir Lal .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >1.00</td>
+<td  >13</td>
+<td  ></td>
+<tr>
+<td  >023-22-0171</td>
+<td  >,,Irfan Saeed</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >8.00</td>
+<td  >6</td>
+<td  >Warning 2</td>
+<tr>
+<td  >023-22-0191</td>
+<td  >,,Javed Ali</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >5.00</td>
+<td  >9</td>
+<td  >Warning 1</td>
+<tr>
+<td  >023-22-0409</td>
+<td  >,,Kabir Qadir .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >2.00</td>
+<td  >7</td>
+<td  ></td>
+<tr>
+<td  >021-21-0023</td>
+<td  >,,Kamran Ali .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >8.00</td>
+<td  ></td>
+<td  >Warning 2</td>
+<tr>
+<td  >023-22-0067</td>
+<td  >,,Moiz Ahmed .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >2.00</td>
+<td  >12</td>
+<td  ></td>
+<tr>
+<td  >023-22-0162</td>
+<td  >,,Muhammad Abdullah .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >4.00</td>
+<td  >10</td>
+<td  >Warning 1</td>
+<tr>
+<td  >053-22-0020</td>
+<td  >,,Muhammad Adeel Memon .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >3.00</td>
+<td  >11</td>
+<td  ></td>
+<tr>
+<td  >023-22-0071</td>
+<td  >,,Muhammad Mubashir Hussain Shah .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >4.00</td>
+<td  >10</td>
+<td  >Warning 1</td>
+<tr>
+<td  >023-22-0094</td>
+<td  >,,Muhammad Zohaib .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >8.00</td>
+<td  >6</td>
+<td  >Warning 2</td>
+<tr>
+<td  >053-22-0018</td>
+<td  >,,Muhammed Ahmed Arain .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  ></td>
+<td  >14</td>
+<td  ></td>
+<tr>
+<td  >023-22-0408</td>
+<td  >,,Mukhtiar Ali .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  ></td>
+<td  >9</td>
+<td  ></td>
+<tr>
+<td  >023-22-0077</td>
+<td  >,,Nisha Ali .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >6.00</td>
+<td  >8</td>
+<td  >Warning 2</td>
+<tr>
+<td  >023-22-0290</td>
+<td  >,,Sahil Kumar .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  ></td>
+<td  >14</td>
+<td  ></td>
+<tr>
+<td  >023-22-0064</td>
+<td  >,,Saifullah Latki .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >2.00</td>
+<td  >12</td>
+<td  ></td>
+<tr>
+<td  >023-21-0041</td>
+<td  >,,Talha Bin Ain .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >3.00</td>
+<td  >6</td>
+<td  ></td>
+<tr>
+<td  >023-21-0081</td>
+<td  >,,Uzema Sadiq .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >7.00</td>
+<td  >1</td>
+<td  >Warning 2</td>
+<tr>
+<td  >023-22-0026</td>
+<td  >,,Waseem Bari .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >2.00</td>
+<td  >12</td>
+<td  ></td>
+<tr>
+<td  >023-22-0134</td>
+<td  >,,Zainab Shakeel</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >4.00</td>
+<td  >10</td>
+<td  >Warning 1</td>
+<tr>
+<td  >023-22-0155</td>
+<td  >,,kaleemullah Shar .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >5.00</td>
+<td  >9</td>
+<td  >Warning 1</td>
+<tr>
+<td  >023-22-0362</td>
+<td  >.,Jitandar Kumar</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >5.00</td>
+<td  >9</td>
+<td  >Warning 1</td>
+<tr>
+<td  >023-21-0352</td>
+<td  >.,Muhammad Awais</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >Y</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  ></td>
+<td  >9</td>
+<td  ></td>
+<tr>
+<td  >023-21-0252</td>
+<td  >Duseja,Teesha .</td>
+<td  >Undergraduate</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  style="mso-number-format:\@;"  >N</td>
+<td  ></td>
+<td  >12:00PM</td>
+<td  > 1:15PM</td>
+<td  >75</td>
+<td  >4.00</td>
+<td  >5</td>
+<td  >Warning 1</td>
+</table></body></html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECMA PRACTICE</title>
+</head>
+<body>
+    <script>
+    //     // let a=5;
+    //     if(true)
+    // {
+    //     var a=4;
+    //     var a=5;
+
+    //     console.log(a)
+    // }
+        
+        // console.log(a);
+        // var a;  //hoshing
+    //    for(var i=0; i<10; i++) incorrect
+//        for(let i=0; i<10; i++)
+//     { 
+//        setTimeout(()=>
+//     {
+//         console.log(i);
+//     },4000)
+// }
+    
+//default parameters
+
+
+        // function add(a,b)
+        // {
+        //     return a+b;
+
+        // }
+        // console.log(add(3)) output=NaN
+
+        // function value()
+        // {
+        //     return 34;
+        // }
+        // function add(a,b=value())
+        // {
+        //     return a+b;
+
+        // }
+        // console.log(add(3)) 
+
+    //     main=(a,b=main())=>
+    // {
+    //     return a+b;
+    // }
+    // main(2,4);
+    //     console.log("what is your name? my name is Ghulam Mustafa"
+    //     +"and what is your father name ? Ghulam Murtaza");
+
+    // let a=4;
+    //     console.log(`what is your name? my name is Ghulam Mustafa
+    //     and what is your father name ? Ghulam Murtaza ${a}`);
+
+        //find and find index
+
+        //     let data=[4,23,14,1,10];
+        //    let result=data.find((a)=>
+        // {
+        //     return (a>6);
+        // }) 
+        // // console.log(result);
+
+        // let data=[
+        //     {id:34,name:"a"},
+        //     {id:35,name:"b"},
+        //     {id:36,name:"c"},
+        //     {id:37,name:"d"}
+        // ]
+        // function custom(a)
+        // {
+        //     return a.name>"a";
+        // }
+        // function custom(a)
+        // {
+        //     return a.id;
+        // }
+            // let data=[4,3,23,14,1,10];
+        //    let result=data.findIndex(custom) 
+        // console.log(result);
+        //    let result=data.find(custom) 
+        // console.log(result);
+        //     let data=[4,3,23,14,1,10];
+        //    let result=data.findIndex((a)=>a<4) 
+        // console.log(result);
+
+
+
+            let data=[4,3,23,14,1,10];
+
+            let double=data.map((a)=>a*2);
+            console.log(double);
+
+       let item=
+       {
+        name:"ASIYA"
+        , 
+        getName:function()
+        {
+            console.log("Normal",this.item.bind(this))
+        },
+        getNameArrow:()=>
+        {
+            console.log("Arrow",this)
+        }
+
+       }
+
+       item.getName();
+       item.getNameArrow();
+
+
+
+
+    </script>
+</body>
+</html>

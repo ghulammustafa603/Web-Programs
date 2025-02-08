@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+<body>
+    <script>
+        let student=
+        {
+            firstName:":GHULAM",
+            lastName:":MUSTAFA",
+            cms_id:":023-22-0099"
+        };
+        for(let value in student)
+        {
+             console.log(value);
+         }
+        let arr1=['Ghulam','MUSTAFA','023-22-0099'];
+        for(let x of student)
+        {
+            console.log(x);
+        }
+        // function arrow(a , b)
+        // {
+        // //     let =result=>a+b;
+
+        // // }
+        // const user={
+        //     userName:"Ghulam Mustafa",
+        //     price:999,
+        //     welcomeMsg: function greeting()
+        //     {
+        //         console.log(this.userName,"welcome to website");
+        //     } 
+        // }
+        // user.welcomeMsg();
+
+        // //for each
+         function print()
+        {
+         console.log();
+        }
+    //    arr1.forEach(print=()=>console.log());
+       arr1.forEach(print);
+
+    //    map
+    numbers=[1,2,3,4,5];
+    numbers.map(print=(n)=>console.log(n*2));
+    numbers.filter(check=(n)=>{if(n%2==0){console.log(n)}})
+    </script>
+</body>
+</html>
